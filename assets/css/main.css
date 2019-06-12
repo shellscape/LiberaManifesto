@@ -88,6 +88,30 @@ footer {
   padding: 2rem 0;
 }
 
+
+@media screen and (max-width: 359px){
+  main { width: 90%; }
+  html { font-size: 9px; }
+  h1 { font-size: 2.9rem; }
+  h1 span {
+    margin-left: 0.4rem;
+    padding: 0 0.4rem;
+  }
+  ul {
+    padding: 0 20px 0 20px;
+  }
+  li {
+    list-style-type: decimal;
+    padding-top: 15px;
+  }
+  #the-manifesto {
+    padding-top:20px;
+    margin-bottom:0;
+  }
+  blockquote {
+    margin:0;
+  }
+}
 @media screen and (min-width: 360px){
   main { width: 90%; }
   html { font-size: 9px; }

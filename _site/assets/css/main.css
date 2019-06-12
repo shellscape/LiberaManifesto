@@ -88,6 +88,28 @@ footer {
   padding: 2rem 0;
 }
 
+@media screen and (min-width: 1280px){
+  main { width: 808px; }
+  h1 { font-size: 6.4rem; }
+  h1 span { margin-left: 1.5rem; }
+}
+
+@media screen and (min-width: 900px){
+  h1 { font-size: 6.1rem; }
+}
+
+@media screen and (min-width: 800px){
+  html { font-size: 10px; }
+  main { width: 80%; }
+  h1 { font-size: 5.1rem; }
+  h1 span { margin-left: 1rem; }
+}
+
+@media screen and (min-width: 420px){
+  h1 { font-size: 4rem; }
+  h1 span { margin-left: 0.6rem; }
+}
+
 @media screen and (min-width: 360px){
   main { width: 90%; }
   html { font-size: 9px; }
@@ -97,21 +119,7 @@ footer {
     padding: 0 0.4rem;
   }
 }
-@media screen and (min-width: 420px){
-  h1 { font-size: 4rem; }
-  h1 span { margin-left: 0.6rem; }
-}
-@media screen and (min-width: 800px){
-  html { font-size: 10px; }
-  main { width: 80%; }
-  h1 { font-size: 5.1rem; }
-  h1 span { margin-left: 1rem; }
-}
-@media screen and (min-width: 900px){
-  h1 { font-size: 6.1rem; }
-}
-@media screen and (min-width: 1280px){
-  main { width: 808px; }
-  h1 { font-size: 6.4rem; }
-  h1 span { margin-left: 1.5rem; }
-}
+
+
+
+
