@@ -1,0 +1,24 @@
+# Site
+title: The Libera Manifesto
+description: A Manifesto for Free, Open Source Software projects
+url: https://liberamanifesto.com
+locale: en_US
+excerpt_separator: <!-- more -->
+
+# Jekyll
+future: true
+markdown:           kramdown
+kramdown:
+  auto_ids:         true
+  footnote_nr:      1
+  entity_output:    as_char
+  toc_levels:       1..6
+  enable_coderay:   false
+  input:            GFM
+
+# Google Analytics
+google-analytics:   UA-141822020-1
+
+# Exclude list
+include: [_pages]
+exclude: [README.md, Gemfile, Gemfile.lock, _site, src, vendor, CNAME, LICENSE, Rakefile, .DS_Store]

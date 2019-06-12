@@ -1,0 +1,18 @@
+---
+
+---
+<!doctype html>
+<html>
+{% include layout/head.html %}
+<body>
+  <main class="container">
+    <header>
+    </header>
+    {{ content | markdownify }}
+    <footer>
+      brought to you by <a href="https://shellscape.org">shellscape.org</a>
+    </footer>
+  </main>
+  {% include layout/scripts.html %}
+</body>
+</html>

@@ -1,0 +1,108 @@
+
+html {
+  font-size: 10px;
+}
+
+body {
+  color: #222;
+}
+
+* {
+  font-family: Hind, Helvetica, Arial, sans-serif;
+}
+
+main {
+  font-size: 1.6rem;
+  margin: 0 auto;
+  padding-top: 4rem;
+  width: 59%;
+}
+
+main > p:first-of-type {
+  text-align: center;
+}
+
+h1 {
+  font-size: 6.4rem;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+h1, h1 * {
+  font-family: "Futura", "Trebuchet MS", Arial, sans-serif;
+}
+
+h1 span {
+  background: #555;
+  color: #fff;
+  font-weight: bold;
+  margin-left: 1.5rem;
+  padding: 0 1rem;
+}
+
+h4 {
+  color: #999;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  font-size: 1.4rem;
+  font-weight: normal;
+  margin: 0;
+  padding: 1rem 0 0 0;
+  text-align: center;
+}
+
+p {
+  padding: 0 1rem;
+}
+
+div.highlight {
+  padding: 0.4rem 1rem;
+}
+
+div.highlight * {
+  font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, Courier, monospace;
+  font-size: 1.2rem;
+}
+
+footer {
+  display: block;
+  font-size: 1.4rem;
+  text-align: center;
+  padding-top: 2rem;
+  border-top: 1px solid #999;
+}
+
+@media screen and (min-width: 500px){
+  main { width: 90%; }
+  html { font-size: 9px; }
+  h1 { font-size: 4rem; }
+  h1 span { margin-left: 0.6rem; }
+}
+@media screen and (min-width: 570px){
+
+}
+@media screen and (min-width: 620px){
+
+}
+@media screen and (min-width: 680px){
+
+}
+@media screen and (min-width: 720px){
+
+}
+@media screen and (min-width: 800px){
+  html { font-size: 10px; }
+  main { width: 80%; }
+  h1 { font-size: 5.1rem; }
+  h1 span { margin-left: 1rem; }
+}
+@media screen and (min-width: 900px){
+  h1 { font-size: 6.1rem; }
+}
+@media screen and (min-width: 1280px){
+  main { width: 808px; }
+  h1 { font-size: 6.4rem; }
+  h1 span { margin-left: 1.5rem; }
+}
