@@ -13,10 +13,12 @@ body {
 
 a,
 a:visited {
-  text-decoration: none;
-  transition: box-shadow .1s cubic-bezier(0.895,.03,.685,.22);
   box-shadow: inset 0 -7px 0 0 #1395ba26;
   color: inherit;
+  display: inline-block;
+  line-height: 2rem;
+  text-decoration: none;
+  transition: box-shadow .1s cubic-bezier(0.895,.03,.685,.22);
 }
 
 a:hover {
@@ -79,11 +81,11 @@ div.highlight * {
 }
 
 footer {
+  border-top: 1px solid #999;
   display: block;
   font-size: 1.4rem;
   text-align: center;
-  padding-top: 2rem;
-  border-top: 1px solid #999;
+  padding: 2rem 0;
 }
 
 @media screen and (min-width: 360px){
