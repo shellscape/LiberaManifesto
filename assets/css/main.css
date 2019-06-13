@@ -71,6 +71,10 @@ p {
   padding: 0 1rem;
 }
 
+li {
+  font-style: italic;
+}
+
 div.highlight {
   padding: 0.4rem 1rem;
 }
@@ -88,6 +92,24 @@ footer {
   padding: 2rem 0;
 }
 
+blockquote {
+  font-style:italic;
+}
+
+@media screen and (max-width: 359px){
+  main { width: 90%; }
+  html { font-size: 9px; }
+  h1 { font-size: 2.9rem; }
+  h1 span {
+    margin-left: 0.4rem;
+    padding: 0 0.4rem;
+  }
+  #the-manifesto {
+    padding-top:20px;
+    margin-bottom:0;
+  }
+}
+
 @media screen and (min-width: 360px){
   main { width: 90%; }
   html { font-size: 9px; }
@@ -100,6 +122,18 @@ footer {
 @media screen and (min-width: 420px){
   h1 { font-size: 4rem; }
   h1 span { margin-left: 0.6rem; }
+}
+@media screen and (max-width: 440px){
+  ul {
+    padding: 0 20px 0 20px;
+  }
+  li {
+    list-style-type: decimal;
+    padding-top: 15px;
+  }
+  blockquote {
+    margin:0 4% 0 4%;
+  }
 }
 @media screen and (min-width: 800px){
   html { font-size: 10px; }
