@@ -1,3 +1,5 @@
+[![libera manifesto](https://img.shields.io/badge/libera-manifesto-lightgrey.svg)](https://liberamanifesto.com)
+
 # The Libera Manifesto
 
 A Manifesto for Open Source Software and Free Services
